@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em;
+        grid-row-gap: 1em; */
+
+        grid-gap: 1em;
+      }
+      .wrapper > div {
+        background: #333;
+        padding: 1em;
+        color: white;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, saepe.
+        Excepturi voluptate voluptates placeat ipsam nostrum modi ad? Quia, enim
+        inventore totam labore natus qui repellat placeat ipsam obcaecati,
+        itaque dicta! Temporibus quibusdam omnis accusantium! Harum similique
+        aperiam earum inventore!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        molestias aspernatur cumque sequi eos veniam laborum iure sed?
+        Perspiciatis, est!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, saepe.
+        Excepturi voluptate voluptates placeat ipsam nostrum modi ad? Quia, enim
+        inventore totam labore natus qui repellat placeat ipsam obcaecati,
+        itaque dicta! Temporibus quibusdam omnis accusantium! Harum similique
+        aperiam earum inventore!
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        molestias aspernatur cumque sequi eos veniam laborum iure sed?
+        Perspiciatis, est!
+      </div>
+    </div>
+  </body>
+</html>
