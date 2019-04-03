@@ -1,0 +1,10 @@
+Building a Responsive Grid Website using CSS
+
+* Nav bar - Uses Grid layout
+* Top container - uses grid-template area
+* Middle boxes use Fontawesome-icons
+* Info section - 2 fractionals/Grid columns
+* Gallery images - unsplash images used
+* Footer
+* No inner pages built.
+* page is Responsive
