@@ -1,0 +1,25 @@
+**** Notes *****
+---------------- Setting up SASS -------------------------
+1. Create a watch for compiled sass with package.json
+   
+   -- Code from package.json
+   "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/--recursive"
+  },
+
+  -- How it works
+    * node-sass will watch dir 'scss'
+    * will compile sass css into regular css and store in dir 'dist/css/
+    * It will automatically create the css directory for storage
+
+2. Code changes should not be made in the regular css file dist/css/main.css
+    * work must be done in scss/main.scss dir.
+
+3. Link index.html to regular css dist/css/main.css  
+
+  -------------------------------------------------------------
+
+  --------------- Create GIT repository -----------------------
+    1. add gitignore file to project directory
+    2. 
+  -------------------------------------------------------------
