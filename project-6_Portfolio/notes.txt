@@ -1,4 +1,7 @@
 **** Notes *****
+
+* Website built using NODE.js, SASS, fontawesome and Vanilla Javascript.
+
 ---------------- Setting up SASS -------------------------
 1. Create a watch for compiled sass with package.json
    
@@ -17,7 +20,37 @@
 
 3. Link index.html to regular css dist/css/main.css  
 
-  -------------------------------------------------------------
+  -----------------------Create NAV --------------------------------------
+1. Create NAV links
+2. Create Main header
+3. Use fontawesome for logos.
+
+  -----------------------Modify logos --------------------------------------
+
+  1. Add hover color to the logo in main.css .main / .icons
+  2. Create Mixin for hover - fade in effect
+    * added to icon with @include easeOut
+
+-- To use fadein effect add '@include easeOut' to css
+    
+&:after - is a temporary/Sudo element created after the &#bg-img is rendered. 
+ * Must use content: ''; to use.
+
+ If this is not used you would have to create an overlay div with the html to assign css elements too.
+
+-------------- Create new _config.scss -----------
+* This allows clean-up for all @mixins and variables created into one file.
+* Once file is created you must import the new file.
+    - in main.scss add @import "config";
+
+
+
+
+
+
+
+
+/* For final portfolio */
 
   --------------- Create GIT repository -----------------------
     1. add gitignore file to project directory
