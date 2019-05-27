@@ -67,6 +67,15 @@
 3.Update <a> anchor links to work
 4. Modify main.scss for Work page.
 
+-------------- Create Contact Page -----------
+1. Copy About Page
+  a. Update headers with Contact info
+2. Created boxes to display flex and to flex-wrap: wrap.
+  a. this will cause the boxes to wrap around for responsive design.
+3. 
+
+
+
 /* For final portfolio */
 
   --------------- Create GIT repository -----------------------
