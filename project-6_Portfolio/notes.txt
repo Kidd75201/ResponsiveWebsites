@@ -44,7 +44,21 @@
     - in main.scss add @import "config";
 
 
-
+-------------- Create About Page -----------
+1. Copied index.html context
+  a. Updated headers with about info
+  b. Deleted the icon menus
+2. Create layout using the Grid system
+3. remove background image from Body
+4. Create the grid for .about-info
+  a. Set grid-template-areas with the grid layout
+  b. Add grid-gap for grid box spacing
+  c. Set the grid-template-columns to use 3 * 1fr
+5. Define the grid area classes
+6. Customize each grid box
+7. Create a sticky Footer, Else footer will not stay at bottom of page.
+  a. <Main> section currently has a const height of 100%. We must replace this with a calc() function to subtract the size of the footer of 60px.
+  b. min-height: calc(100vh - 60px);
 
 
 
