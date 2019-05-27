@@ -60,9 +60,12 @@
   a. <Main> section currently has a const height of 100%. We must replace this with a calc() function to subtract the size of the footer of 60px.
   b. min-height: calc(100vh - 60px);
 
-
-
-
+-------------- Create Work/Projects Page -----------
+1. Copy About page
+  a. Update headers with Work info
+2. Create project item divs
+3.Update <a> anchor links to work
+4. Modify main.scss for Work page.
 
 /* For final portfolio */
 
