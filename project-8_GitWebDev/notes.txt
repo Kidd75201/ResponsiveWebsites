@@ -1,0 +1,15 @@
+* Lean about CSS organization
+-- Where you have multiple .css file that are then combined into one master .css file
+-- ex. header.css, footer.css, features.css into styles.css
+
+* Learn about Package Management
+-- 
+
+------------------ NODE.js Intro ---------------------------------
+* In the project directory run npm init -y to create the package.json file (package recipe file)
+* run npm install lodash to add lodash as a dependency in the package.json file
+* run sudo npm install normalize.css to add normalize.css as a dependency in the package.json file
+* If you happen to delete the node_modules directory you can run 'npm install' to create a new file based on the
+    package.json recipe file.
+* You can search on npm.com to find a package that may help resolve a project issue that you may have.
+-- Or google what you would like to do and add npm at end of search string.

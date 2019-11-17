@@ -1,5 +1,7 @@
 **** Notes *****
 
+**** You must copy over entire contents of the dist directory in order to use website in custom domain ****
+
 * Website built using NODE.js, SASS, fontawesome and Vanilla Javascript.
 
 ---------------- Setting up SASS -------------------------
